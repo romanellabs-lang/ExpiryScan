@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Política de Privacidade — ExpiryScan</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --text: #1a1a1a;
+      --muted: #555;
+      --bg: #fff;
+      --border: #e5e5e5;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --text: #f2f2f2;
+        --muted: #b5b5b5;
+        --bg: #121212;
+        --border: #333;
+      }
+    }
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 24px 20px 48px;
+    }
+    h1, h2 { line-height: 1.25; }
+    h1 { font-size: 1.75rem; margin-bottom: 0.25rem; }
+    .meta { color: var(--muted); margin-bottom: 2rem; }
+    h2 {
+      font-size: 1.15rem;
+      margin-top: 2rem;
+      padding-top: 0.5rem;
+      border-top: 1px solid var(--border);
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 1rem 0;
+      font-size: 0.95rem;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 8px 10px;
+      text-align: left;
+      vertical-align: top;
+    }
+    th { background: rgba(0, 0, 0, 0.04); }
+    @media (prefers-color-scheme: dark) {
+      th { background: rgba(255, 255, 255, 0.06); }
+    }
+    ul { padding-left: 1.25rem; }
+    a { color: #1565c0; }
+    @media (prefers-color-scheme: dark) {
+      a { color: #90caf9; }
+    }
+  </style>
+</head>
+<body>
+  <h1>Política de Privacidade — ExpiryScan</h1>
+  <p class="meta">
+    <strong>Última atualização:</strong> 8 de junho de 2026<br>
+    <strong>Desenvolvedor:</strong> Romanel Labs<br>
+    <strong>Aplicação:</strong> ExpiryScan (com.romanellabs.expiryscan.v2)
+  </p>
+
+  <p>
+    A Romanel Labs (“nós”, “nosso”) respeita a sua privacidade. Esta Política de Privacidade
+    explica como a aplicação móvel <strong>ExpiryScan</strong> (“App”) acede, recolhe, utiliza
+    e partilha informações quando a instala e utiliza no seu dispositivo Android.
+  </p>
+  <p>
+    Esta política é consistente com a declaração de <strong>Segurança dos dados</strong>
+    apresentada na Google Play Store para a ExpiryScan.
+  </p>
+
+  <h2>1. Resumo</h2>
+  <ul>
+    <li>A App lê códigos GS1 Data Matrix através da câmara do dispositivo.</li>
+    <li>Os dados lidos (GTIN, lote, validade, número de série) são <strong>processados apenas no seu dispositivo</strong> e não são enviados para servidores da Romanel Labs.</li>
+    <li>A App <strong>não cria contas de utilizador</strong> e não lhe pede nome, e-mail ou outros dados de identificação pessoal direta.</li>
+    <li>A App exibe <strong>anúncios</strong> através do Google AdMob, que recolhe e partilha determinados dados automaticamente, conforme descrito na secção 4.</li>
+  </ul>
+
+  <h2>2. Responsável pelo tratamento</h2>
+  <p>
+    <strong>Romanel Labs</strong><br>
+    E-mail de contacto para questões de privacidade:
+    <a href="mailto:privacidade@romanellabs.com">privacidade@romanellabs.com</a>
+  </p>
+  <p>
+    <em>Substitua o endereço de e-mail acima pelo contacto real da Romanel Labs antes de publicar.</em>
+  </p>
+
+  <h2>3. Dados processados localmente (não enviamos para os nossos servidores)</h2>
+  <p>Quando utiliza a funcionalidade de leitura de códigos, a App:</p>
+  <ul>
+    <li>Acede à <strong>câmara</strong> do dispositivo para captar imagens em tempo real e detetar códigos Data Matrix.</li>
+    <li>Extrai campos GS1, como GTIN, lote, data de validade e número de série.</li>
+    <li>Apresenta essa informação no ecrã e calcula indicadores visuais (por exemplo, dias até à validade).</li>
+  </ul>
+  <p>
+    Este processamento ocorre <strong>no dispositivo</strong>. A Romanel Labs <strong>não recolhe, armazena
+    nem transmite</strong> para os seus próprios servidores o conteúdo dos códigos lidos, imagens da câmara
+    nem os resultados das leituras.
+  </p>
+  <p>
+    As imagens da câmara não são guardadas na galeria nem enviadas pela App para a internet com esse fim.
+  </p>
+
+  <h2>4. Dados recolhidos e partilhados por terceiros (Google AdMob)</h2>
+  <p>
+    A App utiliza o <strong>Google Mobile Ads SDK (AdMob)</strong> para exibir anúncios (por exemplo,
+    banners). O Google, enquanto fornecedor de publicidade, recolhe e partilha automaticamente os
+  seguintes tipos de dados, para fins de <strong>publicidade, análise e prevenção de fraude</strong>:
+  </p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Tipo de dado (Segurança dos dados)</th>
+        <th>O que é recolhido</th>
+        <th>Finalidade</th>
+        <th>Partilhado com</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Dispositivo ou outros IDs</strong></td>
+        <td>ID de publicidade Android (Advertising ID / AD_ID), App Set ID e, quando aplicável, outros identificadores relacionados com contas no dispositivo.</td>
+        <td>Publicidade, análise, prevenção de fraude</td>
+        <td>Google (AdMob)</td>
+      </tr>
+      <tr>
+        <td><strong>Localização aproximada</strong></td>
+        <td>Localização geral estimada a partir do endereço IP do dispositivo (não utilizamos GPS nem localização precisa).</td>
+        <td>Publicidade, análise</td>
+        <td>Google (AdMob)</td>
+      </tr>
+      <tr>
+        <td><strong>Interações na app</strong></td>
+        <td>Interações com o produto, incluindo abertura da app, toques e visualizações de anúncios.</td>
+        <td>Publicidade, análise</td>
+        <td>Google (AdMob)</td>
+      </tr>
+      <tr>
+        <td><strong>Informações de diagnóstico</strong></td>
+        <td>Dados relacionados com o desempenho da app e do SDK, como tempo de arranque, taxa de bloqueio e consumo de energia.</td>
+        <td>Análise, prevenção de fraude</td>
+        <td>Google (AdMob)</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>Para cada um destes tipos de dados:</p>
+  <ul>
+    <li>Os dados são <strong>recolhidos</strong> automaticamente pelo SDK de anúncios.</li>
+    <li>Os dados são <strong>partilhados</strong> com o Google enquanto fornecedor de publicidade.</li>
+    <li>A recolha é <strong>necessária</strong> para a exibição de anúncios na versão gratuita da App.</li>
+    <li>Os dados <strong>não são processados apenas de forma efémera</strong> pelo fornecedor de anúncios.</li>
+    <li>Os dados são <strong>encriptados em trânsito</strong> nas comunicações com os serviços do Google.</li>
+  </ul>
+
+  <p>Para mais informações sobre as práticas do Google:</p>
+  <ul>
+    <li><a href="https://policies.google.com/privacy" rel="noopener noreferrer">Política de Privacidade do Google</a></li>
+    <li><a href="https://developers.google.com/admob/android/privacy/play-data-disclosure" rel="noopener noreferrer">Divulgação de dados do Google AdMob para a Play Store</a></li>
+    <li><a href="https://support.google.com/admob/answer/6128543" rel="noopener noreferrer">Como o Google utiliza dados em sites e apps</a></li>
+    <li><a href="https://policies.google.com/technologies/ads" rel="noopener noreferrer">Publicidade do Google</a></li>
+  </ul>
+
+  <p>
+    Pode limitar ou redefinir o ID de publicidade nas definições do Android:
+    <strong>Definições → Google → Anúncios</strong> (o caminho pode variar consoante o fabricante).
+  </p>
+
+  <h2>5. Permissões da App</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Permissão</th>
+        <th>Finalidade</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Câmara</td>
+        <td>Ler códigos Data Matrix em tempo real. Necessária para a funcionalidade principal de leitura. Não armazenamos imagens.</td>
+      </tr>
+      <tr>
+        <td>Internet</td>
+        <td>Carregar e exibir anúncios através do AdMob.</td>
+      </tr>
+      <tr>
+        <td>Estado da rede</td>
+        <td>Verificar conectividade para o carregamento de anúncios.</td>
+      </tr>
+      <tr>
+        <td>ID de publicidade (AD_ID)</td>
+        <td>Utilizado pelo SDK de anúncios do Google para publicidade, análise e prevenção de fraude.</td>
+      </tr>
+      <tr>
+        <td>Vibração</td>
+        <td>Feedback tátil local após uma leitura bem-sucedida.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>6. Dados que a Romanel Labs não recolhe</h2>
+  <p>A Romanel Labs não recolhe diretamente, através da App:</p>
+  <ul>
+    <li>Nome, e-mail, número de telefone ou morada</li>
+    <li>Localização precisa (GPS)</li>
+    <li>Fotos ou vídeos guardados no dispositivo</li>
+    <li>Conteúdo dos códigos GS1 lidos (GTIN, lote, validade, número de série)</li>
+    <li>Mensagens, contactos ou ficheiros pessoais</li>
+  </ul>
+
+  <h2>7. Base legal (RGPD)</h2>
+  <p>Se estiver no Espaço Económico Europeu ou no Reino Unido:</p>
+  <ul>
+    <li><strong>Leitura de códigos:</strong> execução do serviço solicitado por si ao utilizar a App.</li>
+    <li><strong>Publicidade (AdMob):</strong> consentimento, quando exigido, e/ou interesse legítimo do Google enquanto fornecedor de publicidade, conforme as suas escolhas no dispositivo e as políticas do Google.</li>
+  </ul>
+
+  <h2>8. Partilha de dados</h2>
+  <p>
+    A Romanel Labs <strong>não vende</strong> os seus dados pessoais. A partilha ocorre nas seguintes situações:
+  </p>
+  <ul>
+    <li><strong>Google AdMob:</strong> os tipos de dados descritos na secção 4, para publicidade, análise e prevenção de fraude.</li>
+    <li><strong>Obrigações legais:</strong> quando exigido por lei, ordem judicial ou autoridade competente.</li>
+  </ul>
+
+  <h2>9. Retenção de dados</h2>
+  <ul>
+    <li><strong>Dados de leitura de códigos:</strong> mantidos apenas em memória durante a utilização; não são persistidos pelos nossos serviços.</li>
+    <li><strong>Dados de anúncios:</strong> a retenção é definida pelo Google, de acordo com as suas políticas.</li>
+    <li><strong>Preferências locais:</strong> a App pode guardar no dispositivo preferências simples (por exemplo, tema claro/escuro), sem envio para servidores da Romanel Labs.</li>
+  </ul>
+
+  <h2>10. Segurança</h2>
+  <p>
+    Implementamos medidas técnicas adequadas no desenho da App para limitar o tratamento de dados ao
+    estritamente necessário. O processamento de códigos ocorre localmente. As comunicações com serviços
+    de terceiros (AdMob) utilizam encriptação em trânsito.
+  </p>
+
+  <h2>11. Cópias de segurança do Android</h2>
+  <p>
+    A App pode permitir cópias de segurança automáticas do sistema Android, conforme as definições do
+    seu dispositivo. Essas cópias são geridas pelo sistema operativo e pela conta Google associada ao
+    dispositivo, não diretamente pela Romanel Labs.
+  </p>
+
+  <h2>12. Crianças</h2>
+  <p>
+    A App não se destina especificamente a crianças menores de 13 anos. Não recolhemos intencionalmente
+    dados pessoais de crianças. Se acreditar que uma criança nos forneceu dados pessoais, contacte-nos
+    para que possamos tomar as medidas adequadas.
+  </p>
+
+  <h2>13. Os seus direitos</h2>
+  <p>
+    Dependendo da sua localização, pode ter direitos de acesso, retificação, eliminação, limitação,
+    oposição e portabilidade relativamente a dados pessoais.
+  </p>
+  <p>
+    Para dados tratados pelo Google AdMob, deve exercer os seus direitos junto do Google, nos termos das
+    respetivas políticas e ferramentas de privacidade.
+  </p>
+  <p>
+    Para questões relacionadas com a Romanel Labs, contacte:
+    <a href="mailto:privacidade@romanellabs.com">privacidade@romanellabs.com</a>.
+  </p>
+  <p>
+    Tem também o direito de apresentar reclamação à autoridade de proteção de dados da sua jurisdição
+    (por exemplo, a CNPD em Portugal).
+  </p>
+
+  <h2>14. Transferências internacionais</h2>
+  <p>
+    O Google pode processar dados em servidores localizados fora do seu país de residência, incluindo
+    fora do Espaço Económico Europeu, com salvaguardas contratuais e técnicas adequadas, conforme
+    descrito nas políticas do Google.
+  </p>
+
+  <h2>15. Alterações a esta política</h2>
+  <p>
+    Podemos atualizar esta Política de Privacidade periodicamente. A data da “Última atualização” no
+    topo desta página indica a versão em vigor. Alterações relevantes podem ser comunicadas através da
+    página da App na Google Play Store.
+  </p>
+
+  <h2>16. Contacto</h2>
+  <p>
+    Para questões sobre esta Política de Privacidade ou sobre o tratamento de dados pela ExpiryScan:
+  </p>
+  <p>
+    <strong>Romanel Labs</strong><br>
+    E-mail: <a href="mailto:privacidade@romanellabs.com">privacidade@romanellabs.com</a>
+  </p>
+
+  <hr style="margin-top: 3rem; border: none; border-top: 1px solid var(--border);">
+  <p class="meta" style="margin-top: 1.5rem;">
+    Esta política reflete a declaração de Segurança dos dados da ExpiryScan na Google Play Console,
+    incluindo: Dispositivo ou outros IDs, Localização aproximada, Interações na app e Informações de
+    diagnóstico (via Google AdMob).
+  </p>
+</body>
+</html>
